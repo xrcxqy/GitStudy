@@ -1,0 +1,15 @@
+-- 查看个人配置信息
+$ git config --list
+
+-- 配置个人信息
+$ git config --global user.name "your name"
+$ git config --global user.email "your_email@youremail.com"
+
+-- 添加到缓存
+$ git add README
+
+-- 提交到本地
+$ git commit -m "first commit"
+
+-- 提交到总的网络服务器
+$ git push origin master
